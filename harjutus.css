@@ -1,0 +1,111 @@
+body {
+    background-color: rgba(255, 246, 233, 0.793);
+}
+
+.heading {
+    text-align: center;
+}
+
+.pancakes-heading {
+    color: rgb(255, 221, 53);
+    font-family: 'Satisfy', cursive;
+    position: relative; /*top-right-bottom-left*/
+    font-size: 3rem;
+    animation: heading;
+    animation-duration: 3s;
+}
+
+@keyframes heading {
+    0% {top: -250px;}
+    100% {top: 0;}
+}
+
+.ingredients {
+    border: 1px solid gray;
+    width: 50%;
+    margin: 20px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: dimgrey;
+}
+
+.ingredients {
+    position: relative;
+    animation: textLeft;
+    animation-duration: 3s;
+}
+
+@keyframes textLeft {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0;}
+}
+
+
+.ingredients-table {
+    border: 1px solid rgb(255, 221, 53);
+    margin: 0 auto;
+}
+
+.instructions {
+    border: 1px solid gray;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.instructions {
+    position: relative;
+    animation: textLeft;
+    animation-duration: 3s;
+}
+
+@keyframes textLeft {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0;}
+}
+
+.instructions ol {
+    border: 1px solid rgb(255, 221, 53);
+    margin: 20px auto;
+    width: 75%;
+    padding-bottom: 15px;
+    color: dimgrey;
+}
+
+.instructions ol {
+    position: relative;
+    animation: textLeft;
+    animation-duration: 3s;
+}
+
+@keyframes textLeft {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0;}
+}
+
+.vahe {
+    border: 100px solid rgba(255, 246, 233, 0.793);
+    width: 50%;
+    margin: 100px auto;
+    border-top: 100px;
+    border-bottom: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer {
+    font-family: 'Alex Brush', cursive;
+    color: rgb(255, 221, 53);
+    font-size: 0,2rem;
+    text-align: center;
+    position: relative; /*top-right-bottom-left*/
+    animation: footer;
+    animation-duration: 3s;
+}
+
+@keyframes footer {
+    0% {bottom: -250px;}
+    100% {bottom: 0;}
+}
